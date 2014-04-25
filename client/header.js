@@ -15,6 +15,6 @@ Template.header.helpers({
       // who else?
     ];
 
-    return TAs;
+    return bootcampers;
   }
 });
