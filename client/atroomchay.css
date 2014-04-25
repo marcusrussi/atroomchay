@@ -15,8 +15,15 @@ body {
 
 .header {
 	background-color: #ffb3b1;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 25px;
+	color:teal;
 }
 
 .chatroom {
 	background-color: #cfffcf;
+	font-family: "Helvetica";
+	font-size: 20px;
+	color:teal;
 }
