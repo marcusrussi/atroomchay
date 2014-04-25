@@ -1,0 +1,20 @@
+<head>
+  <title>Atroomchay</title>
+</head>
+
+<body>
+  <div class="container">
+    {{> header}}
+    {{> chatroom}}
+    {{> input}}
+  </div>
+</body>
+
+<template name="header">
+  <div class="header">
+    <h1>Welcome to the YEI Tech Bootcamp Atroomchay!</h1>
+    <p>
+      Copyright 2014, {{#each person}} {{this}}, {{/each}}
+    </p>    
+  </div>
+</template>

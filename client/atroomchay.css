@@ -1,0 +1,22 @@
+/* CSS declarations go here */
+body {
+	background-color: #d2fcff;
+	margin: 0;
+}
+
+.container {
+	background-color: #8acdff;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #ffb3b1;
+}
+
+.chatroom {
+	background-color: #cfffcf;
+}

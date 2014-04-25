@@ -1,0 +1,23 @@
+<!-- This is the chatroom template, where all of the messages in the chat get
+	 displayed.  Inside this template, we use an {{#each}} helper to iterate
+	 over all of the messages in the chatroom.  Notice how the all the HTML 
+	 elements are given a name – this will allow you to style them in CSS  -->
+<template name="chatroom">
+	<div class="chatroom">
+		<!-- This {{#each}} helper renders a 'message' template for each
+			 message in the chat.  The 'message' template receives the data
+			 for a single message, so that you can render that data on
+			 the page -->
+		{{#each messages}}
+			{{> message}}
+		{{/each}}
+	</div>
+</template>
+
+<!-- Within the 'message' template, {{this.name}} and {{this.message}}
+	 will transform into the name and poster of the message -->
+<template name="message">
+	<div class="message">
+		{{this.name}}: {{this.message}}
+	</div>
+</template>
