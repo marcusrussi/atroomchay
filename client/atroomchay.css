@@ -26,12 +26,13 @@ body {
 .chatroom {
 	background-color: red;
 	font-family: "Comic Sans MS";
-	color: white;
+	color: black;
 	background-color: #cfffcf;
 }
 
-input {
-    background: url(http://www.cantonsoccerclub.com/Portals/124/images/Misc%20Web%20Graphics/submitbutton.png);
+input[type=submit] {
+    background-image: url(http://www.cantonsoccerclub.com/Portals/124/images/Misc%20Web%20Graphics/submitbutton.png);
+    background-size: contain;
     width: 200px; /* width of image */
     height: 50px; /* height of image */
     border: 0;

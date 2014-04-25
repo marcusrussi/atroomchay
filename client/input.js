@@ -22,8 +22,7 @@ wordToPigLatin = function( str ) {
 		}
 		else vowIndex = 0;   
 	}
-	return str.substring(vowIndex) + str.substring(0, vowIndex) 
-	+ "ay";
+	return str.substring(vowIndex) + str.substring(0, vowIndex) + "ay";
 };
 
 // You can ignore this code, but what it does is it grabs the name of

@@ -10,7 +10,7 @@ Template.chatroom.helpers({
 			{name: 'Bob', message: 'Yeah, me too.  Let\'s get off of here.'}
 		];
 
-		// return Chats.find();
-		return fakeMessages;	
+		return Chats.find();
+		// return fakeMessages;	
 	}
 });
