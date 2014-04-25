@@ -1,12 +1,12 @@
 /* CSS declarations go here */
 body {
-	background-color: #d2fcff;
+	background-color: #CCFFFF;
 	margin: 0;
 	font-family: "Georgia";
 }
 
 .container {
-	background-color: #8acdff;
+	background-color: #CCCCFF;
 	margin-right: 25%;
 	margin-left: 25%;
 	margin-top: 0;
@@ -15,9 +15,10 @@ body {
 }
 
 .header {
-	background-color: #ffb3b1;
+	background-color: #CC99FF;
 }
 
 .chatroom {
-	background-color: #cfffcf;
+	background-color: #CC66FF
+;
 }
