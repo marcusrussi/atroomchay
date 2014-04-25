@@ -1,29 +1,41 @@
 /* CSS declarations go here */
 body {
-	background-color: #d2fcff;
+	background-color: #F45D4C;
 	margin: 0;
+	color: #B83229;
 }
 
 .container {
-	background-color: #8acdff;
+	background-color: #F7A541;
 	margin-right: 25%;
 	margin-left: 25%;
-	margin-top: 0;
 	margin-bottom: 0;
-	padding: 0;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 10px;
 }
 
 .header {
-	background-color: #ffb3b1;
 	text-align: center;
-	font-family: "Arial";
-	font-size: 25px;
-	color:teal;
-}
-
-.chatroom {
 	background-color: #cfffcf;
 	font-family: "Helvetica";
 	font-size: 20px;
 	color:teal;
+}
+
+.chatroom {
+	/*background-color: #FEE5AD;*/
+	/*border-radius: 10px;*/
+	/*padding: 10px;*/
+	/*margin: 10px;*/
+	background-color: #A1DBB2;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	color: #F45D4C;
+}
+
+.input {
+	padding: 10px;
+	margin: 10px;
 }
