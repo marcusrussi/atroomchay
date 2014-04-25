@@ -20,3 +20,10 @@ body {
 .chatroom {
 	background-color: #cfffcf;
 }
+
+input {
+    background: url(http://www.cantonsoccerclub.com/Portals/124/images/Misc%20Web%20Graphics/submitbutton.png);
+    width: 200px; /* width of image */
+    height: 50px; /* height of image */
+    border: 0;
+}
